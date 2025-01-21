@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 
+// single dimensional array 
+
 public class UserInputSingleArray {
     public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
@@ -17,7 +19,7 @@ public class UserInputSingleArray {
 			System.out .printf("Elements at index %d is =%s%n", i, names[i]);
 			
 		}
-		
+		System.out.println(" the element at the third position is " + names[2]);
 	}
 
 }
