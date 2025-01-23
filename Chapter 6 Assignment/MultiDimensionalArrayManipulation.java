@@ -8,8 +8,8 @@ public class MultiDimensionalArrayManipulation {
             {7, 8, 9}
         };
 
-        for (int row = 0; row < num.length; row++) { // Iterate through rows
-            for (int col = 0; col < num[row].length; col++) { // Iterate through columns in current row
+        for (int row = 0; row < 3; row++) { // Iterate through rows
+            for (int col = 0; col < num[row] 3; col++) { // Iterate through columns in current row
                 System.out.printf("Element at index [%d][%d] = %d%n", row, col, num[row][col]);
             }
         }
