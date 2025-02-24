@@ -16,5 +16,5 @@ public class OneToOneAssociation {
         System.out.println (address3)
         ;
     }
- 
+ assert condition
 }
